@@ -297,7 +297,7 @@ button.addEventListener("mousedown", () => {
 - event.key
   ```js
   const input = document.querySelector("input");
-  input.addEventListener("keypress", (event) => {
+  input.addEventListener("keyup", (event) => {
     console.log(event.key); // Enter, a, b, c, ...
   });
   ```
