@@ -301,3 +301,28 @@ button.addEventListener("mousedown", () => {
     console.log(event.key); // Enter, a, b, c, ...
   });
   ```
+
+## Exercise: Creating a Modal
+
+You need to create a **modal** functionality for a web page.
+Follow the steps below to complete the exercise:
+
+**1. Select the button element:**
+
+- Locate and select the correct HTML element on the HTML file given.
+- **Don't** use the inline script.
+
+**2. Add an event listener to the element ('click'):**
+
+- Attach an event listener to the selected element listening to the 'click' event.
+- When the button element is clicked, remove the CSS class 'invisible' from a specific '<div>' element that represents the modal, making it visible to the user.
+
+**3. Add an event listener to Key Up ('escape'):**
+
+- Implement a new event listener, but this time listen to the 'key up' event on the entire document.
+- Check if the key up corresponds to the 'escape' key. Search to discover the correct 'keyCode'.
+- If the 'escape' key is pressed, add the CSS class 'visible' to the element that represents the modal, making it invisible to the user again.
+
+**4. Test with another key different than the 'escape' to see if it is working.**
+
+**5. Add a time out function to make the modal disappear if the user doesn't press any keys. (BONUS)**
